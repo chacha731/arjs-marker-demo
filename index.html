@@ -16,12 +16,11 @@
   <a-scene embedded
     arjs="sourceType: webcam; debugUIEnabled: false;"
     vr-mode-ui="enabled: false">
-    <a-marker type="pattern" url="fox.patt">
-      <a-entity id="fox" gltf-model="url(Fox.glb)"
+    <a-marker type="pattern" url="pattern-smail.patt">
+      <a-entity id="model" gltf-model="url(mymodel.glb)"
         position="0 0 0" rotation="0 45 0"
-        scale="0.008 0.008 0.008"
-        animation-mixer="clip: Walk; loop: repeat">
-      </a-entity>
+        scale="0.001 0.001 0.001">
+        </a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
